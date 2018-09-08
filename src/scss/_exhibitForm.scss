@@ -1,0 +1,88 @@
+.ps_n3_exhibitFormContainer {
+	height: calc(100vh - 6rem);
+	overflow: scroll;
+	width: 19.3rem;
+}
+
+.ps_n3_exhibitShowContainer {
+	gridRow: 1;
+	gridColumn: 1;
+	margin: 0;
+	height: 80vh;
+}
+
+.ps_n3_exhibit-form {
+	height: 100%;
+}
+
+.ps_n3_exhibit-form fieldset > div {
+	margin-bottom: 1em;
+}
+
+.ps_n3_dayPickerInput,
+.ps_n3_exhibit-form input,
+.ps_n3_exhibit-form select,
+.ps_n3_exhibit-form textarea {
+	width: 100%;
+	max-width: 18.5rem !important;
+	display: inline;
+	border-radius: 0;
+	border: 1px solid #dedede;
+	padding: 0 0 0 0.5rem;
+}
+
+.DayPickerInput {
+	width: 100%;
+	max-width: 17.4rem !important;
+}
+
+.ps_n3_exhibit-form input {
+	height: 2.3rem;
+	margin:.5rem 0 .5rem 0;
+}
+
+.ps_n3_exhibit-form select {
+	height: 3rem;
+	background-color: white;
+	border-radius: 0;
+	max-width: 19.2rem !important;
+}
+
+.ps_n3_exhibit-form select[multiple] {
+	height: 4rem;
+	margin:.5rem 0 .5rem 0;
+}
+
+.ps_n3_exhibit-form textarea {
+	height: 4rem;
+	padding: 0.5rem 0 0 0.5rem;
+	margin:.5rem 0 .5rem 0;
+}
+
+.ps_n3_checkboxPair {
+	height: 1rem;
+}
+
+.ps_n3_checkboxPair input {
+	position: relative;
+	margin: 0;
+	top: 0 !important;
+	max-height: 1rem !important;
+	max-width: 1rem !important;
+}
+
+.ps_n3_checkboxPair label {
+	margin: 0 0 0 0.5rem;
+}
+
+.ps_n3_radioSet label {
+	margin: 0 1rem 0 0;
+}
+
+.ps_n3_radioSet input {
+	position: relative;
+	margin: 0;
+	top: 0 !important;
+	max-height: 1rem !important;
+	max-width: 1rem !important;
+}

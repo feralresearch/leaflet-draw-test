@@ -1,0 +1,24 @@
+.ps_n3_recordFormContainer {
+	height: calc(100vh - 12rem);
+	overflow: scroll;
+	border: 0;
+	margin:0 0 0 0;
+}
+
+.ps_n3_optionHeader {
+	font-weight: bold;
+	border-bottom: 1px #c2c0ba dashed;
+	margin:0 0 1rem 0;
+}
+
+.ps_n3_highlight {
+	background-color: #fffee1;
+	padding: 1rem;
+	margin: -.5rem -1rem -1rem -1rem;
+	border-radius: 0.3rem;
+}
+
+.ps_n3_sub_options{
+	margin:0 1.5rem 0 1rem;
+	font-size: .9rem;
+}
