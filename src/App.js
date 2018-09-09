@@ -3,13 +3,13 @@ import React, {Component} from 'react';
 import './App.css';
 import {
 	Map,
-	Circle,
+	//Circle,
 	LayersControl,
 	FeatureGroup,
 	Polygon,
 	TileLayer
 } from 'react-leaflet';
-import {EditControl} from "react-leaflet-draw"
+import {EditControl} from 'react-leaflet-draw';
 
 class App extends Component {
 
@@ -32,7 +32,7 @@ class App extends Component {
 		let positions =[[37, -109.05],[41, -109.03],[41, -102.05],[37, -102.04]];
 		let tileServerURL='http://tile.stamen.com/watercolor/{z}/{x}/{y}.png';
 		let editableGeometry = [];
-		editableGeometry.push(<Circle key="circle" center={[37, -109.05]} radius={2000} />);
+		//editableGeometry.push(<Circle key="circle" center={[37, -109.05]} radius={2000} />);
 		editableGeometry.push(<Polygon key="polygon" positions={positions}/>);
 
 
